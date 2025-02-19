@@ -97,7 +97,7 @@ def server_busy():
 
 # ——————————————————————————————————————————
 
-@app.route("/supplier", methods=["GET", "POST"])
+@app.route("/supplier", methods=["GET"])
 def supplier():
     return render_template("supplier.html")
 
