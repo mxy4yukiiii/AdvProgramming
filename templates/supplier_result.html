@@ -5,10 +5,10 @@
 
 <body>
     <div class="container">
-        <h2>Electricity Usage</h2>
+        <h2>Meter Reading</h2>
 
         <p>Meter ID: {{ meter_id }}</p>
-        <p>Current Usage: {{ usage }} kWh</p>
+        <p>Current Reading: {{ usage }} kWh</p>
 
         <form action="/supplier_result" method="post">
             <input type="hidden" name="meter_id" value="{{ meter_id }}">
